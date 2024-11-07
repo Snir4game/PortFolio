@@ -3,16 +3,17 @@ import './MyPortfolio.css';
 import LinkdinPic from '../Pics/Linkdin.png';
 import GmailPic from '../Pics/Gmail.png';
 import GitHubPic from '../Pics/GitHub.png';
-
+import Selfie from '../Pics/Selfie.png';
 const MyPortfolio = () => {
   return (
     <div>
       <div className="hero">
         <h2>Snir Amsalem</h2>
         <h4>Full Stack Developer</h4>
+        <img className='Selfie' src={Selfie} alt="" />
         <div className ="Social-Media">
           <a href ="https://www.linkedin.com/in/sniramsalem/">
-            <img src = {LinkdinPic} alt="" />
+            <img  src = {LinkdinPic} alt="" />
           </a>
           <a href = "mailto:Sniramsalem1995@gmail.com">
             <img src = {GmailPic} alt="" />
@@ -23,7 +24,12 @@ const MyPortfolio = () => {
         </div>
       </div>
       <div className="about">
-
+        <p>
+        Dynamic and creative Full Stack Developer <br />
+        working collaboratively in team environments. <br />
+        Excels at problem-solving and learning new technologies rapidly. <br />
+        Seeking to leverage software development skills in a challenging Full Stack Developer role. <br />
+        </p>
       </div>
       <div className="skills">
 
