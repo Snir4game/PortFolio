@@ -14,3 +14,12 @@
 .container-fluid{
     background: linear-gradient(160deg,#ffffff,#A9CEF4,#A9CEF4,#7EA0B7,#7EA0B7,#ffffff);
 }
+.table-skill{
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3;
+    border-color: black;
+    border-width: 2;
+}

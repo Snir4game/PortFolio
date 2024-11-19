@@ -4,8 +4,10 @@ import LinkdinPic from '../Pics/Linkdin.png';
 import GmailPic from '../Pics/Gmail.png';
 import GitHubPic from '../Pics/GitHub.png';
 import Selfie from '../Pics/Selfie.png';
+import SkillSection from './SKillsSection';
+
 const MyPortfolio = () => {
-  
+
   return (
     <div className='container-fluid'>
       <div className="hero">
@@ -32,42 +34,7 @@ const MyPortfolio = () => {
         Seeking to leverage software development skills in a challenging Full Stack Developer role. <br />
         </p>
       </div>
-      <div className="container mt-1">
-        <table className='table'>
-          <thead>
-            <tr>
-              <th>Skill</th>
-              <th>Proficiency</th>
-            </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th>JavaScrip</th>
-              </tr>
-              <tr>
-                <th>HTML</th>
-              </tr>
-              <tr>
-                <th>CSS</th>
-              </tr>
-              <tr>
-                <th>React</th>
-              </tr>
-              <tr>
-                <th>React-Native</th>
-              </tr>
-              <tr>
-                <th>FireBase</th>
-              </tr>
-              <tr>
-                <th>BootStrap</th>
-              </tr>
-              <tr>
-                <th></th>
-              </tr>
-            </tbody>
-        </table>
-      </div>
+      <SkillSection />
       <div className="projects">
 
       </div>
@@ -78,4 +45,4 @@ const MyPortfolio = () => {
   )
 }
 
-export default MyPortfolio
+export default MyPortfolio;
