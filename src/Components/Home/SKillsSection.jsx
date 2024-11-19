@@ -1,6 +1,7 @@
 import { BarChart2 } from 'lucide-react';
 import SkillLevel from './SkillLevel'
 import React from 'react';
+import './SkillSection.css';
 
 const SkillSection = () =>{
     const skills = [
@@ -17,24 +18,24 @@ const SkillSection = () =>{
 
 return(
 <div className="container mt-8 p-6 bg-white rounded-lg shadow-md">
-        <div className="flex align-items-center gap-2 mb-6">
-            <BarChart2 className="w-6 h-6 text-blue-500"/>
-            <h2 className="text-2x1 font-bold">Technical Skills</h2>
+        <div className="flex align-items-baseline">
+            <BarChart2 className="BarChart" />
+            <h2 className="Title-SKills">Technical Skills</h2>
         </div>
 
         <div className="overflow-x-auto">
             <table className="w-full table-auto">
                 <thead className="bg-gray-50">
                     <tr>
-                        <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">
+                        <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
                         SKill
                     </th>
-                    <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">
+                    <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
                         Proficiency
                     </th>
                 </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200">
+            <tbody className="divide-y divide-gray-200 m-4">
             {skills.map((skill) => (
               <tr key={skill.name}
               className='hover:bg-gray-50 transition-colors'
