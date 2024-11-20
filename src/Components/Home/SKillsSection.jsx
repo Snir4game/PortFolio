@@ -17,7 +17,7 @@ const SkillSection = () =>{
 
 
 return(
-<div className="container mt-8 p-6 bg-white rounded-lg shadow-md">
+<div className="Skill-Table">
         <div className="flex align-items-baseline">
             <BarChart2 className="BarChart" />
             <h2 className="Title-SKills">Technical Skills</h2>
@@ -40,12 +40,12 @@ return(
               <tr key={skill.name}
               className='hover:bg-gray-50 transition-colors'
               >
-                <td className="px-6 py-4">
+                <td className="px-4 py-3">
                   <div className="font-medium text-gray-900">
                     {skill.name}
                   </div>
                 </td>
-                <td className="px-6 py-4">
+                <td className="px-4 py-4">
                   <SkillLevel level={skill.level} />
                 </td>
               </tr>

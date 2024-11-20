@@ -13,6 +13,7 @@ const MyPortfolio = () => {
       <div className="hero">
         <h2>Snir Amsalem</h2>
         <h4>Full Stack Developer</h4>
+          <img className='Selfie' src={Selfie} alt="" />
         <div className ="Social-Media">
           <a href ="https://www.linkedin.com/in/sniramsalem/">
             <img  src = {LinkdinPic} alt="" />
@@ -24,7 +25,6 @@ const MyPortfolio = () => {
             <img src = {GitHubPic} alt="" />
           </a>
         </div>
-          <img className='Selfie' src={Selfie} alt="" />
       </div>
       <div className="about">
         <p>
@@ -34,7 +34,17 @@ const MyPortfolio = () => {
         Seeking to leverage software development skills in a challenging Full Stack Developer role. <br />
         </p>
       </div>
-      <SkillSection />
+      <div className="container py-5"> {/* Added padding */}
+        <div className="row justify-content-center">
+          <div className="col-lg-8"> {/* Changed to lg-8 for better width on larger screens */}
+            <div className="card shadow"> {/* Added card with shadow for better visual */}
+              <div className="card-body">
+                <SkillSection />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="projects">
 
       </div>
