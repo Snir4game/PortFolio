@@ -28,8 +28,10 @@ const MyPortfolio = () => {
       </div>
       <div className="about">
         <p>
-        Dynamic and creative Full Stack Developer <br />
-        working collaboratively in team environments. <br />
+        My name is Snir and im 29 years old.<br />
+        I Live in Beer Sheva,South of Israel. <br />
+        A Dynamic and creative Full Stack Developer. <br />
+        Working collaboratively in team environments. <br />
         Excels at problem-solving and learning new technologies rapidly. <br />
         Seeking to leverage software development skills in a challenging Full Stack Developer role. <br />
         </p>
