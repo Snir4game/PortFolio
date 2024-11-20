@@ -34,10 +34,10 @@ const MyPortfolio = () => {
         Seeking to leverage software development skills in a challenging Full Stack Developer role. <br />
         </p>
       </div>
-      <div className="container py-5"> {/* Added padding */}
+      <div className="container py-5"> 
         <div className="row justify-content-center">
-          <div className="col-lg-8"> {/* Changed to lg-8 for better width on larger screens */}
-            <div className="card shadow"> {/* Added card with shadow for better visual */}
+          <div className="col-lg-8"> 
+            <div className="card shadow">
               <div className="card-body">
                 <SkillSection />
               </div>

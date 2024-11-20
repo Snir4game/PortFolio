@@ -8,11 +8,10 @@
     color: #0466C8;
 }
 .Title-SKills{
-    display: inline-block;
+    display: inline-flex;
     font-size: 2rem;
     font-weight: 700;
     color: #000;
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -23,52 +22,40 @@
 }
 
 .shadow {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Ensure table is full width inside the card */
 .table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* Add some padding to table cells */
 .table td, .table th {
   padding: 1rem;
   vertical-align: middle;
 }
 
-/* Add spacing between skill name and bars */
 .table td {
     padding: 1rem 2rem;
 }
 
-/* Add extra space after skill name column */
+
 .table td:first-child {
-    padding-right: 4rem;  /* Increase right padding for skill names */
-}
+    padding-right: 4rem; }
 
-/* Optional: Keep your existing hover effect */
+
 .table tr:hover {
-    background-color: rgba(4, 102, 200, 0.05);  /* Light blue tint using your BarChart color */
-}
+    background-color: rgba(4, 102, 200, 0.05);}
 
-/* In SkillSection.css */
+
 .skill-name {
-    padding-right: 3rem !important;  /* Override Bootstrap default */
+    padding-right: 3rem !important;  
     font-weight: 500;
-    width: 200px;  /* Fixed width for skill names */
+    width: 200px;
 }
 
 .skill-progress {
-    width: calc(100% - 200px);  /* Take remaining space */
-    padding-left: 2rem !important;  /* Override Bootstrap default */
-}
-
-/* Style for the table container */
-.Skill-Table {
-    width: 100%;
-    max-width: 800px;  /* Limit maximum width */
-    margin: 0 auto;    /* Center the table */
+    width: calc(100% - 200px); 
+    padding-left: 2rem !important; 
 }

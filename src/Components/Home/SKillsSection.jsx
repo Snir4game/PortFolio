@@ -23,7 +23,7 @@ return(
             <h2 className="Title-SKills">Technical Skills</h2>
         </div>
 
-        <div className="overflow-x-auto">
+        <div className='px-3 py-4'>
             <table className="w-full table-auto">
                 <thead className="bg-gray-50">
                     <tr>
