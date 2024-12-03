@@ -1,0 +1,61 @@
+.BarChart {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 8%;
+    padding: 1rem;
+    color: #0466C8;
+}
+.Title-SKills{
+    display: inline-flex;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  background: white;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table td, .table th {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.table td {
+    padding: 1rem 2rem;
+}
+
+
+.table td:first-child {
+    padding-right: 4rem; }
+
+
+.table tr:hover {
+    background-color: rgba(4, 102, 200, 0.05);}
+
+
+.skill-name {
+    padding-right: 3rem !important;  
+    font-weight: 500;
+    width: 200px;
+}
+
+.skill-progress {
+    width: calc(100% - 200px); 
+    padding-left: 2rem !important; 
+}
