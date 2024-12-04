@@ -11,7 +11,6 @@ function App() {
           <Route path="/" element={<MyPortfolio />} />
         </Routes>
       </BrowserRouter>
-      <MyPortfolio />
     </div>
   );
 }
