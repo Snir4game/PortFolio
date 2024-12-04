@@ -37,7 +37,7 @@ const MyPortfolio = () => {
         </p>
       </div>
       <div className="SkillSection">
-        <SkillSection />
+                <SkillSection />
       </div>
       <div className="projects">
 
