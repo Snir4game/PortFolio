@@ -42,9 +42,6 @@ const MyPortfolio = () => {
       <div className="ProjectsSection">
                 <ProjectsSection />
       </div>
-      <div className="contact">
-
-      </div>
     </div>
   )
 }
