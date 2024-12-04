@@ -5,13 +5,11 @@ import MyPortfolio from './components/Home/MyPortfolio';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<MyPortfolio />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MyPortfolio />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
