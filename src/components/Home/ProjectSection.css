@@ -1,5 +1,9 @@
 .projects-section {
     padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .projects-header {
@@ -15,13 +19,24 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.projects-container {
+.project-navigation-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.project-card-container {
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-card {
@@ -31,8 +46,12 @@
     width: 100%;
     max-width: 350px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     animation: fadeIn 1.5s ease-in-out;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-card:hover {
@@ -41,12 +60,15 @@
 
 .project-image img {
     width: 100%;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
 }
 
 .project-details {
     padding: 1.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .project-details h3 {
@@ -106,6 +128,52 @@
     opacity: 0.9;
 }
 
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nav-button {
+    background-color: rgba(4, 102, 200, 0.8); /* Set a visible background color */
+    border: none;
+    cursor: pointer;
+    color: white; /* Ensure the icon or text is visible */
+    padding: 0.5rem; /* Add some padding for better appearance */
+    border-radius: 50%; /* Make the button circular */
+    z-index: 1;
+}
+
+.nav-button:hover {
+    background-color: rgba(4, 102, 200, 1); /* Darken the background on hover */
+}
+
+.nav-button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.nav-left {
+    left: 0.5rem; /* Adjust position if needed */
+}
+
+.nav-right {
+    right: 0.5rem; /* Adjust position if needed */
+}
+
+.project-card-container .project-card {
+    transform: translateX(0);
+}
+
+.project-card-container .project-card.slide-left {
+    transform: translateX(-100%);
+}
+
+.project-card-container .project-card.slide-right {
+    transform: translateX(100%);
+}
+
 @media (max-width: 768px) {
     .projects-container {
         flex-direction: column;
@@ -114,6 +182,11 @@
 
     .project-card {
         max-width: 90%;
+    }
+
+    .about, .SkillSection {
+        padding: 2rem;
+        width: 90%;
     }
 }
 
@@ -146,4 +219,14 @@
         padding: 0.4rem 0.8rem;
         font-size: 0.9rem;
     }
+
+    .about, .SkillSection {
+        padding: 1rem;
+        width: 95%;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
