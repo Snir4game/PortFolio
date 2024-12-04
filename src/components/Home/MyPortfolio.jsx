@@ -4,7 +4,7 @@ import LinkdinPic from '../Pics/Linkdin.png';
 import GmailPic from '../Pics/Gmail.png';
 import GitHubPic from '../Pics/GitHub.png';
 import Selfie from '../Pics/Selfie.png';
-import SkillSection from './SkillsSection';
+import SkillSection from './SKillsSection';
 import ProjectsSection from './ProjectsSection';
 const MyPortfolio = () => {
 
