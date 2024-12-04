@@ -5,7 +5,7 @@ import GmailPic from '../Pics/Gmail.png';
 import GitHubPic from '../Pics/GitHub.png';
 import Selfie from '../Pics/Selfie.png';
 import SkillSection from './SKillsSection';
-
+import ProjectsSection from './ProjectsSection';
 const MyPortfolio = () => {
 
   return (
@@ -39,8 +39,8 @@ const MyPortfolio = () => {
       <div className="SkillSection">
                 <SkillSection />
       </div>
-      <div className="projects">
-
+      <div className="ProjectsSection">
+                <ProjectsSection />
       </div>
       <div className="contact">
 

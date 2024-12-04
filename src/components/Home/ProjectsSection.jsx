@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import "./ProjectSection.css";
 import GameHubPic from "../Pics/GameHub.png";
 
 const ProjectsSection = () => {
@@ -16,7 +15,7 @@ const ProjectsSection = () => {
         }
     ];
     return(
-        <div className="project-section container-fluid">
+        <div className="project-section">
             <div className="project-header">
                 <h2 className="projects-title">My projects</h2>
             </div>
@@ -45,3 +44,6 @@ const ProjectsSection = () => {
             </div>
         </div>
     )
+
+}
+export default ProjectsSection;

@@ -4,6 +4,8 @@
     border-radius: 220px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    animation: fadeIn 1s ease-in-out;
+
 }
 .hero{
     min-height: 45vh;
@@ -14,6 +16,8 @@
     align-items: center;
     gap: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+
 }
 .Social-Media{
     padding: 20px;
@@ -21,13 +25,14 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+    animation: fadeIn 2s ease-in-out;
 }
 .container-fluid{
     background: linear-gradient(75deg,#E2EAFC,#ABC4FF,#B6CCFE,#C1D3FE,#CCDBFD,#E2EAFC,#E2EAFC);
     padding: 2rem;
-    
+    animation: none;
 }
-.about, .SkillSection {
+.about, .SkillSection, .ProjectsSection {
     padding: 3rem;
     margin: 3rem auto;
     max-width: 750px;
@@ -40,6 +45,7 @@
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2.5s ease-in-out;
 }
 
 /* Media query for smaller screens */
@@ -56,4 +62,8 @@
         padding: 1rem;
         width: 95%;
     }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

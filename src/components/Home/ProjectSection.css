@@ -1,6 +1,5 @@
 .projects-section {
-    padding: 3rem 0;
-    background: linear-gradient(75deg,#E2EAFC,#ABC4FF,#B6CCFE,#C1D3FE,#CCDBFD,#E2EAFC,#E2EAFC);
+    padding: 3rem;
 }
 
 .projects-header {
@@ -9,6 +8,7 @@
 }
 
 .projects-title {
+    padding: 1rem;
     font-size: 2.5rem;
     font-weight: 700;
     color: #000;
@@ -53,11 +53,15 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #0466C8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .project-details p {
     color: #333;
     margin-bottom: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .project-technologies {
@@ -111,11 +115,6 @@
     .project-card {
         max-width: 90%;
     }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 
 @media (max-width: 480px) {
