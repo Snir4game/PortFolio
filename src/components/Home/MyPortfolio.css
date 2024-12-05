@@ -67,3 +67,14 @@
     from { opacity: 0; }
     to { opacity: 1; }
 }
+.Rights{
+    margin: 0.5rem;
+    width: 200px;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 3s ease-in-out;
+}

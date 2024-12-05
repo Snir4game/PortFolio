@@ -42,6 +42,7 @@ const MyPortfolio = () => {
       <div className="ProjectsSection">
                 <ProjectsSection />
       </div>
+      <p className='Rights'>&copy; 2025 Snir Amsalem. All rights reserved.</p>
     </div>
   )
 }
