@@ -29,7 +29,6 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  table-layout: fixed; /* Ensure table cells have a fixed width */
 }
 
 .table td, .table th {
@@ -50,14 +49,6 @@
   .table td {
     padding: 0.75rem 1.5rem;
   }
-
-  .skill-name {
-    width: 120px; /* Further adjust width for smaller screens */
-  }
-
-  .skill-progress {
-    width: calc(100% - 120px); /* Further adjust width for smaller screens */
-  }
 }
 
 /* Media query for very small screens */
@@ -68,14 +59,6 @@
 
   .table td {
     padding: 0.5rem 1rem;
-  }
-
-  .skill-name {
-    width: 100px; /* Further adjust width for very small screens */
-  }
-
-  .skill-progress {
-    width: calc(100% - 100px); /* Further adjust width for very small screens */
   }
 }
 
@@ -88,12 +71,12 @@
 
 
 .skill-name {
-    padding-right: 1rem !important; /* Reduce padding for smaller screens */
+    padding-right: 3rem !important;  
     font-weight: 500;
-    width: 150px; /* Adjust width for better fit */
+    width: 200px;
 }
 
 .skill-progress {
-    width: calc(100% - 150px); /* Adjust width for better fit */
-    padding-left: 1rem !important; /* Reduce padding for smaller screens */
+    width: calc(100% - 200px); 
+    padding-left: 2rem !important; 
 }

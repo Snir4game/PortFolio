@@ -52,7 +52,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Ensure text is centered */
 }
 
 .project-card:hover {
@@ -183,20 +182,11 @@
 
     .project-card {
         max-width: 90%;
-        padding: 1rem; /* Adjust padding for better fit */
     }
 
     .about, .SkillSection {
         padding: 2rem;
         width: 90%;
-    }
-
-    .project-details h3 {
-        font-size: 1.25rem; /* Adjust font size for better readability */
-    }
-
-    .project-details p {
-        font-size: 1rem; /* Adjust font size for better readability */
     }
 }
 
@@ -211,15 +201,14 @@
 
     .project-card {
         max-width: 100%;
-        padding: 0.5rem; /* Adjust padding for better fit */
     }
 
     .project-details h3 {
-        font-size: 1rem; /* Adjust font size for better readability */
+        font-size: 1.25rem;
     }
 
     .project-details p {
-        font-size: 0.8rem; /* Adjust font size for better readability */
+        font-size: 0.9rem;
     }
 
     .tech-badge {
