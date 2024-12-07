@@ -41,7 +41,7 @@
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .table td, .table th {
     padding: 0.75rem;
   }
@@ -52,7 +52,7 @@
 }
 
 /* Media query for very small screens */
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .table td, .table th {
     padding: 0.5rem;
   }

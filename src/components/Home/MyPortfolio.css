@@ -49,7 +49,7 @@
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .about, .SkillSection {
         padding: 2rem;
         width: 90%;
@@ -57,7 +57,7 @@
 }
 
 /* Media query for very small screens */
-@media (max-width: 480px) {
+@media (max-width: 560px) {
     .about, .SkillSection {
         padding: 1rem;
         width: 95%;
