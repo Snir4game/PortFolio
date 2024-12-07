@@ -188,23 +188,6 @@
         padding: 2rem;
         width: 90%;
     }
-
-    .projects-section {
-        padding: 2rem 1rem;
-    }
-
-    .project-card {
-        max-width: 95%;
-        margin: 0 auto;
-    }
-
-    .project-image img {
-        height: 250px;
-    }
-    
-    .projects-title {
-        font-size: 2rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -240,38 +223,6 @@
     .about, .SkillSection {
         padding: 1rem;
         width: 95%;
-    }
-
-    .projects-section {
-        padding: 1.5rem 0.5rem;
-    }
-
-    .project-card {
-        max-width: 100%;
-        padding: 0.75rem;
-    }
-
-    .project-image img {
-        height: 200px;
-    }
-
-    .project-details {
-        padding: 1rem;
-    }
-
-    .projects-title {
-        font-size: 1.75rem;
-        padding: 0.5rem;
-    }
-
-    .tech-badge {
-        font-size: 0.75rem;
-        padding: 0.2rem 0.4rem;
-    }
-
-    .btn {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.9rem;
     }
 }
 

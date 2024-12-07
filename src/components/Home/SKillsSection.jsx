@@ -28,7 +28,7 @@ return(
                 <thead className="bg-gray-50">
                     <tr>
                         <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
-                        Skill
+                        SKill
                     </th>
                     <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
                         Proficiency
