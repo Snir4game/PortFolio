@@ -29,11 +29,13 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
+  min-width: 280px; /* Ensure minimum width on mobile */
 }
 
 .table td, .table th {
   padding: 1rem;
   vertical-align: middle;
+  font-size: 16px; /* Set base font size */
 }
 
 .table td {
@@ -44,10 +46,25 @@
 @media (max-width: 768px) {
   .table td, .table th {
     padding: 0.75rem;
+    font-size: 14px;
   }
 
   .table td {
     padding: 0.75rem 1.5rem;
+  }
+
+  .Title-SKills {
+    font-size: 1.75rem;
+  }
+
+  .skill-name {
+    width: 120px;
+    padding-right: 1rem !important;
+  }
+
+  .skill-progress {
+    width: calc(100% - 120px);
+    padding-left: 1rem !important;
   }
 }
 
@@ -55,10 +72,25 @@
 @media (max-width: 480px) {
   .table td, .table th {
     padding: 0.5rem;
+    font-size: 13px;
   }
 
   .table td {
     padding: 0.5rem 1rem;
+  }
+
+  .Title-SKills {
+    font-size: 1.5rem;
+  }
+
+  .skill-name {
+    width: 100px;
+    padding-right: 0.5rem !important;
+  }
+
+  .skill-progress {
+    width: calc(100% - 100px);
+    padding-left: 0.5rem !important;
   }
 }
 
