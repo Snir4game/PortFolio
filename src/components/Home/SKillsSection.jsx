@@ -18,7 +18,7 @@ const SkillSection = () =>{
 
 return(
 <div className="Skill-Table">
-        <div className="flex align-items-baseline">
+        <div className="px-5 py-3">
             <BarChart2 className="BarChart" />
             <h2 className="Title-SKills">Technical Skills</h2>
         </div>
@@ -27,10 +27,10 @@ return(
             <table className="w-full table-auto">
                 <thead className="bg-gray-50">
                     <tr>
-                        <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
+                        <th className="px-5 py-3 text-left text-sm font-semibold text-gray-900 p-4">
                         SKill
                     </th>
-                    <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900 p-4">
+                    <th className="px-5 py-3 text-left text-sm font-semibold text-gray-900 p-4">
                         Proficiency
                     </th>
                 </tr>
@@ -40,12 +40,12 @@ return(
               <tr key={skill.name}
               className='hover:bg-gray-50 transition-colors'
               >
-                <td className="px-4 py-3">
+                <td className="px-4 py-1">
                   <div className="font-medium text-gray-900">
                     {skill.name}
                   </div>
                 </td>
-                <td className="px-4 py-4">
+                <td className="px-1 py-4">
                   <SkillLevel level={skill.level} />
                 </td>
               </tr>
