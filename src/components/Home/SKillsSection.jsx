@@ -18,7 +18,7 @@ const SkillSection = () =>{
 
 return(
 <div className="Skill-Table">
-        <div className="px-5 py-3">
+        <div className="Title-Table">
             <BarChart2 className="BarChart" />
             <h2 className="Title-SKills">Technical Skills</h2>
         </div>
@@ -35,12 +35,12 @@ return(
                     </th>
                 </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200 m-4">
+            <tbody className="SkillsAndLevels">
             {skills.map((skill) => (
               <tr key={skill.name}
               className='hover:bg-gray-50 transition-colors'
               >
-                <td className="px-4 py-1">
+                <td className="px-4">
                   <div className="font-medium text-gray-900">
                     {skill.name}
                   </div>
