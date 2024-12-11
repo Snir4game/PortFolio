@@ -13,8 +13,8 @@ const SkillLevel = ({ level }) => {
         return (
             <div 
                 key={index} 
-                className="progress mx-1" 
-                style={{ height: '20px', width: '40px' }}
+                className="progress" 
+                style={{ height: '20px', width: '38x', margin: '1px' }}
             >
                 <div 
                     className={`progress-bar ${isFilled ? 'bg-primary' : ''}`}

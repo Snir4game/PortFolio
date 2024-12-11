@@ -45,7 +45,7 @@ return(
                     {skill.name}
                   </div>
                 </td>
-                <td className="px-1 py-4">
+                <td className="py-4">
                   <SkillLevel level={skill.level} />
                 </td>
               </tr>
