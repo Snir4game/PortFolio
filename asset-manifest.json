@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2c387bd4.css",
-    "main.js": "/portfolio/static/js/main.5edd5982.js",
+    "main.js": "/portfolio/static/js/main.c1eb7e18.js",
     "static/media/Selfie.png": "/portfolio/static/media/Selfie.0b6f1748b962adebcc4f.png",
     "static/media/GameHub.png": "/portfolio/static/media/GameHub.353c8a3422d5a57d0432.png",
     "static/media/ValorantPic.png": "/portfolio/static/media/ValorantPic.ce522c561a0bab7a4b60.png",
     "index.html": "/portfolio/index.html",
     "main.2c387bd4.css.map": "/portfolio/static/css/main.2c387bd4.css.map",
-    "main.5edd5982.js.map": "/portfolio/static/js/main.5edd5982.js.map"
+    "main.c1eb7e18.js.map": "/portfolio/static/js/main.c1eb7e18.js.map"
   },
   "entrypoints": [
     "static/css/main.2c387bd4.css",
-    "static/js/main.5edd5982.js"
+    "static/js/main.c1eb7e18.js"
   ]
 }
