@@ -14,14 +14,20 @@ const SkillLevel = ({ level }) => {
             <div 
                 key={index} 
                 className="progress" 
-                style={{ height: '20px', width: '38x', margin: '1px' }}
+                style={{ 
+                    height: '15px', 
+                    width: '38px',
+                    backgroundColor: '#e9ecef',
+                    borderRadius: '2px',
+                    margin: '2px'
+                }}
             >
                 <div 
-                    className={`progress-bar ${isFilled ? 'bg-primary' : ''}`}
+                    className="progress-bar"
                     role="progressbar"
                     style={{ 
                         width: isFilled ? '100%' : (isPartiallyFilled ? `${partialWidth}%` : '0%'),
-                        backgroundColor: isPartiallyFilled ? '#007bff' : '',
+                        backgroundColor: '#0466C8',
                         transition: 'width 0.5s ease-in-out'
                     }}
                     aria-valuenow={isFilled ? 100 : (isPartiallyFilled ? partialWidth : 0)}
@@ -34,9 +40,7 @@ const SkillLevel = ({ level }) => {
 
     return (
         <div className="d-flex align-items-center">
-            <div className="d-flex flex-grow-1">
-                {bars}
-            </div>
+            {bars}
         </div>
     );
 };
