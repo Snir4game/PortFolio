@@ -40,7 +40,7 @@ return(
               <tr key={skill.name}
               className='hover:bg-gray-50 transition-colors'
               >
-                <td className="px-4">
+                <td className="px-4 p-lg-1">
                   <div className="font-medium text-gray-900">
                     {skill.name}
                   </div>
