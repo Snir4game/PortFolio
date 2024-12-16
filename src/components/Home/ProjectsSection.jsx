@@ -1,8 +1,9 @@
 import React, {useState,useEffect} from "react";
 import "./ProjectSection.css";
 import GameHubPic from "../Pics/GameHub.png";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import ValoranApp from "../Pics/ValorantPic.png";
+import portfolio from "../Pics/PortFolio.png";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const ProjectsSection = () => {
 
@@ -22,8 +23,16 @@ const ProjectsSection = () => {
             technologies: ["React-Native","Firebase","JavaScript","React-Element"],
             image: ValoranApp,
             link: "https://github.com/Snir4game/ValorantApp",
+        },
+        {
+            id:3,
+            name: "My Portfolio",
+            description: "My Portfolio website that I built to show my projects and skills.",
+            technologies: ["CSS","React","BootStrap"],
+            image: portfolio,
+            link: "https://github.com/Snir4game/portfolio"
         }
-
+        
     ];
 
 
