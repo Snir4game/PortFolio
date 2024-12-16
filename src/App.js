@@ -5,7 +5,7 @@ import MyPortfolio from './components/Home/MyPortfolio';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/portfolio'>
       <Routes>
         <Route path="/" element={<MyPortfolio />} />
       </Routes>
